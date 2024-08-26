@@ -25,14 +25,7 @@ ul,li{
     background: #ddd;
     margin: 0 5px 20px 0;
 }
-/* .img{
-  height: 300px;
-} */
-/* .img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+
 .card-img{
   width: 100px;
   height: 100px;
@@ -94,4 +87,24 @@ ul,li{
 }
 input:focus{
   outline: none;
+}
+
+@media  screen  and (max-width: 480px) {
+  .pok{
+    display: block;
+  }
+  .main{
+    width: auto;
+  }
+  .search input{
+    width: 200px;
+    padding: 10px;
+  }
+  .hOne{
+    text-align: center;
+    font-size: 20px;
+  }
+  .pokemon_card{
+    width: 100%;
+  }
 }
